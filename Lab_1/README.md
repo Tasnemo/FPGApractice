@@ -12,18 +12,18 @@
 | 1 → 0  | 1      |     OUT holds previous value            |
 
 
-## Sequential Logic D-Flip Flop
+## Sequential Logic D-Flip Flop (Edge-Triggered)
 
 | CLOCK | D | What happens to Q when D changes? |
-|-------|---|-----------------------------------|
-| 0     | 0 → 1 |                               |
-| 0     | 1 → 0 |                               |
-| 0 → 1 | 0     |                               |
-| 0 → 1 | 1     |                               |
-| 1     | 0 → 1 |                               |
-| 1     | 1 → 0 |                               |
-| 1 → 0 | 0     |                               |
-| 1 → 0 | 1     |                               |
+|-------|---|----------------------------------|
+| 0     | 0 → 1 | No change |
+| 0     | 1 → 0 | No change |
+| 0 → 1 | 0     | Q becomes 0 |
+| 0 → 1 | 1     | Q becomes 1 |
+| 1     | 0 → 1 | No change |
+| 1     | 1 → 0 | No change |
+| 1 → 0 | 0     | No change |
+| 1 → 0 | 1     | No change |
 
 **What is different about the input/output operation of the D-Latch versus the D-Flip Flop?**
 
