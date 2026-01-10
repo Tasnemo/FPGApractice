@@ -27,4 +27,8 @@
 
 **What is different about the input/output operation of the D-Latch versus the D-Flip Flop?**
 
+The D-Latch functions in the sense that the TRIGGER simply allows for the INPUT to be sent to the OUT and the TRIGGER being 0 stops the INPUT from influencing the OUTPUT. The D-Flip Flop ultilizes the CLOCK to only allow an update from D (The input) when it "ticks" from 0 → 1 or during a rising edge.
+
 **Can you think of any ways the D-Flip Flop might be more useful than the Latch?**
+
+D-Flip Flops can provide a unit of iteration or instance that is relative to itself and makes relative logic a lot simpler.
