@@ -18,8 +18,8 @@
 |-------|---|----------------------------------|
 | 0     | 0 → 1 | No change |
 | 0     | 1 → 0 | No change |
-| 0 → 1 | 0     | Q becomes 0 |
-| 0 → 1 | 1     | Q becomes 1 |
+| 0 → 1 | 0     | OUT becomes 0 |
+| 0 → 1 | 1     | OUT becomes 1 |
 | 1     | 0 → 1 | No change |
 | 1     | 1 → 0 | No change |
 | 1 → 0 | 0     | No change |
