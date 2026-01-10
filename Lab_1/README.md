@@ -2,7 +2,7 @@
 
 | TRIGGER | INPUT | What happens to OUT when INPUT changes? |
 |--------|--------|-----------------------------------------|
-| 0      | 0 → 1  |                                         |
+| 0      | 0 → 1  |   No Change                                      |
 | 0      | 1 → 0  |                                         |
 | 0 → 1  | 0      |                                         |
 | 0 → 1  | 1      |                                         |
