@@ -22,6 +22,7 @@
 | 10     | 0  | 1  | 1  | 1  |
 
 ****F2=****  w'x + wy + w'yz'
+
 ---
 
 | VHDL Port  | Schematic | Basys-3 Pin |
@@ -33,6 +34,7 @@
 | function1 | LD0       | U16         |
 | function2 | LD1       | E19         |
 ---
+
 
 
 
